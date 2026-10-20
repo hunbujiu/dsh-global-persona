@@ -4,6 +4,8 @@
 用户级的 `AGENTS.md`（`$DSH_HOME/AGENTS.md`，缺省 `~/.dsh/AGENTS.md`）。
 
 > 作者：[hunbujiu](https://github.com/hunbujiu) · 仓库：<https://github.com/hunbujiu/dsh-global-persona>
+>
+> **开发方式**：本项目的代码与文档**部分由 AI 开发**，详见文末「开发方式」。
 
 ## 它改的是哪个文件
 
@@ -51,3 +53,12 @@ dsh plugin add link:D:/20761/Documents/dshwork/dsh-global-persona --profile desk
 ```
 
 改完代码后重启 `dsh web` 即可生效（宿主半侧改动需要重启；只改 `client.js` 时刷新页面即可）。
+
+## 开发方式
+
+**本项目的代码与文档部分由 AI 开发。**
+
+- 主要由 AI 编程助手（DeepSeek Harness 内的编码 Agent）生成与修改，包括插件宿主半侧、浏览器半侧、bundle patch 与本文档。
+- 人类作者负责提出需求、审阅结果与最终发布决策。
+- AI 生成的代码未经独立的形式化验证；重要场景请自行审查后再部署。
+- 若发现问题，欢迎提 issue 或 PR：<https://github.com/hunbujiu/dsh-global-persona/issues>

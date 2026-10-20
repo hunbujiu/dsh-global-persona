@@ -35,7 +35,8 @@
     "dsh-plugin",
     "deepseek-harness",
     "agents-md",
-    "persona"
+    "persona",
+    "ai-generated"
   ],
   "dsh": {
     "bundle": {
