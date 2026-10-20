@@ -36,20 +36,6 @@ POST /api/dsh-global-persona/document   ← { content, expectedVersion? }
 - 写入走「临时文件 + rename」，不会出现半截内容落盘。
 - 单次写入上限 1 MiB。
 
-## 样式约定（踩过的坑）
-
-只使用主题 token，不写死颜色。**但 token 要选对**：
-
-- 按钮底色用 `--dsw-alias-button-primary-fill`，按钮文字用
-  `--dsw-alias-label-primary-foreground`——这是宿主自己主按钮的配对。
-- **不要**拿 `--dsw-alias-brand-primary` 当填充色。它不是填充色：桌面窗口主题
-  （`window-material.css`）会在 `body` 上把它改写成 `var(--dsw-alias-label-primary)`，
-  于是底色变近白、再配上写死的 `#fff` 文字，按钮就白底白字整个隐形了。
-- 自定义属性是在**声明它的元素**上完成替换的：`:root` 上算好的
-  `--dsw-alias-button-primary-fill` 不会因为 `body` 改写 `brand-primary` 而变，
-  这也是宿主按钮没坏、而直接引用 `brand-primary` 的元素坏了的原因。
-- 禁用态只降 `opacity`，不换颜色，避免任何主题下的低对比。
-
 ## 安装
 
 从 GitHub 安装：
