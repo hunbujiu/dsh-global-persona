@@ -1,0 +1,10 @@
+# dsh-global-persona bundle patch
+# 插入一行「全局人设」插件：宿主半侧提供读写全局 AGENTS.md 的接口，
+# 浏览器半侧在「设置 → 全局人设」里渲染查看 / 编辑界面。
+#
+# 全局 AGENTS.md 的位置由宿主进程解析（$DSH_HOME/AGENTS.md，缺省 ~/.dsh/AGENTS.md），
+# 与 @deepseek-ai/dsh-agent-instructions 读取的是同一个文件。
+- insert:
+    - id: global-persona
+      name: dsh-global-persona
+      config: {}

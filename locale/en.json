@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Global Persona",
+    "description": "View and edit the user-global AGENTS.md ($DSH_HOME/AGENTS.md) from Settings; changes apply to the next request of a new session."
+  }
+}

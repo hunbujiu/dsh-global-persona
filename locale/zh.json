@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "全局人设",
+    "description": "在设置里查看与修改全局 AGENTS.md（$DSH_HOME/AGENTS.md），改动对新会话的下一次请求生效。"
+  }
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Global persona">
+  <rect x="8" y="5" width="48" height="54" rx="11" fill="#2f6f4e"/>
+  <path d="M19 20h26M19 30h26M19 40h15" stroke="#e9f5ee" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="45" cy="45" r="10" fill="#e9f5ee"/>
+  <path d="M40.5 45h9M45 40.5v9" stroke="#2f6f4e" stroke-width="3.2" stroke-linecap="round"/>
+</svg>
