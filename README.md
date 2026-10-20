@@ -3,6 +3,8 @@
 给 DeepSeek Harness 加一个「全局人设」设置页：在 **设置 → 全局人设** 里直接查看和修改
 用户级的 `AGENTS.md`（`$DSH_HOME/AGENTS.md`，缺省 `~/.dsh/AGENTS.md`）。
 
+> 作者：[hunbujiu](https://github.com/hunbujiu) · 仓库：<https://github.com/hunbujiu/dsh-global-persona>
+
 ## 它改的是哪个文件
 
 `@deepseek-ai/dsh-agent-instructions` 会在每次请求时把这个 user-global 文件注入到系统提示里，
@@ -50,7 +52,13 @@ POST /api/dsh-global-persona/document   ← { content, expectedVersion? }
 
 ## 安装
 
-本机已经以 `link:` 方式装进 `desktop` profile：
+从 GitHub 安装：
+
+```bash
+dsh plugin add github:hunbujiu/dsh-global-persona --profile desktop
+```
+
+或者本地开发时用 `link:` 指向工作副本：
 
 ```bash
 dsh plugin add link:D:/20761/Documents/dshwork/dsh-global-persona --profile desktop

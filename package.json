@@ -21,6 +21,22 @@
     "README.md"
   ],
   "license": "MIT",
+  "author": "hunbujiu (https://github.com/hunbujiu)",
+  "homepage": "https://github.com/hunbujiu/dsh-global-persona#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hunbujiu/dsh-global-persona.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hunbujiu/dsh-global-persona/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "agents-md",
+    "persona"
+  ],
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"
